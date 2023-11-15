@@ -1,0 +1,87 @@
+#cabecalho {
+    background-image: url(imagens/bg-4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 1px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+nav ul {
+    margin: 20px 80px 00;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+li a {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 14px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#titulo {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+#titulo h1 {
+    font-size: 60px;
+    padding-top: 200px;
+    color: rgb(254, 250, 250);
+    text-shadow: 2px 2px 2px rgb(14, 14, 14);
+    text-align: center;
+    align-items: center;
+
+}
+
+#texto {
+    text-align: center;
+
+}
+
+p {
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+h2 {
+    padding-left: 16px;
+}
+
+h3 {
+    padding-left: 16px;
+}
+
+#linkVoltar {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#linkVoltar:hover {
+    text-decoration: underline;
+}
